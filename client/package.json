@@ -1,0 +1,47 @@
+{
+  "name": "my-jsonforms-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@jsonforms/core": "^2.5.2",
+    "@jsonforms/examples": "^2.5.2",
+    "@jsonforms/material-renderers": "^2.5.2",
+    "@jsonforms/react": "^2.5.2",
+    "@mui/icons-material": "^5.4.1",
+    "@mui/material": "^5.4.1",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.25.0",
+    "firebase": "^9.6.6",
+    "mysql": "^2.18.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^3.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/react-scripts start",
+    "build": "../node_modules/.bin/react-scripts build",
+    "test": "../node_modules/.bin/react-scripts test",
+    "eject": "../node_modules/.bin/react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
